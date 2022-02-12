@@ -1,5 +1,19 @@
 <!-- Please update value in the {}  -->
 
+<!-- b32442 -->
+
+# pages
+
+1. home
+2. question
+3. Results
+
+# components
+
+1. buttons
+2. inputs
+3. context
+
 <h1 align="center">Country Quiz App</h1>
 
 <div align="center">

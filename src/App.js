@@ -1,5 +1,11 @@
+import Home from './pages/Home'
+
 function App() {
-  return <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+  return (
+    <div className='bg-[#aa808a] w-full h-[100vh]'>
+      <Home />
+    </div>
+  )
 }
 
 export default App
