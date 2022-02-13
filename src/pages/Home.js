@@ -11,7 +11,7 @@ const Home = () => {
         <img src={mainlog} alt='undraw_adventure_4hum 1.svg' />
       </div>
       <button
-        className='m-8 py-2 px-4 bg-[#3b5144] rounded-sm  text-[#fff] font-medium text-[24px] hover:text-[#000] hover:bg-[#fff] transition delay-150 '
+        className='m-8 py-2 px-4 bg-[#1c2620] rounded-sm  text-[#fff] font-medium text-[24px] hover:text-[#000] hover:bg-[#fff] transition delay-150 '
         onClick={startQuiz}
       >
         Start Quiz
