@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/country-quiz-app-in-react/static/css/main.dccb0d1c.css",
-    "main.js": "/country-quiz-app-in-react/static/js/main.ac96ccdc.js",
+    "main.css": "/country-quiz-app-in-react/static/css/main.ab9dcbef.css",
+    "main.js": "/country-quiz-app-in-react/static/js/main.b3f76c99.js",
     "static/media/undraw_adventure_4hum 1.svg": "/country-quiz-app-in-react/static/media/undraw_adventure_4hum 1.37313c4a7cf2c29aad1ed8f5051370dc.svg",
     "index.html": "/country-quiz-app-in-react/index.html",
-    "main.dccb0d1c.css.map": "/country-quiz-app-in-react/static/css/main.dccb0d1c.css.map",
-    "main.ac96ccdc.js.map": "/country-quiz-app-in-react/static/js/main.ac96ccdc.js.map"
+    "main.ab9dcbef.css.map": "/country-quiz-app-in-react/static/css/main.ab9dcbef.css.map",
+    "main.b3f76c99.js.map": "/country-quiz-app-in-react/static/js/main.b3f76c99.js.map"
   },
   "entrypoints": [
-    "static/css/main.dccb0d1c.css",
-    "static/js/main.ac96ccdc.js"
+    "static/css/main.ab9dcbef.css",
+    "static/js/main.b3f76c99.js"
   ]
 }
