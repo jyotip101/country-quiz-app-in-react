@@ -1,7 +1,7 @@
 <!-- Please update value in the {}  -->
 
 <!-- b32442 -->
-
+<!--
 # pages
 
 1. home
@@ -12,27 +12,16 @@
 
 1. buttons
 2. inputs
-3. context
+3. context -->
 
 <h1 align="center">Country Quiz App</h1>
-
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
+ 
 <div align="center">
   <h3>
     <!-- <a href="https://{your-demo-link.your-domain}"> -->
       Demo
     <!-- </a> -->
-    <span> | </span>
-    <!-- <a href="https://{your-url-to-the-solution}"> -->
-      Solution
-    <!-- </a> -->
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8">
-      Challenge
-    </a>
+     
   </h3>
 </div>
 
@@ -87,5 +76,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@jyotip101](https://github.com/jyotip101)
-- Twitter [@jyotipatil77100](https://twitter.com/jyotipatil77100)
+- GitHub [@thejyotipatel](https://github.com/thejyotipatel)
+- Twitter [@thejyotipatel](https://twitter.com/thejyotipatel)
