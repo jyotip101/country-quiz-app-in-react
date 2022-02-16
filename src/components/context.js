@@ -4,6 +4,7 @@ const QuestionContext = React.createContext()
 export const AppProvider = ({ children }) => {
   const [question, setQuestion] = useState(false)
   const [isStart, setIsStart] = useState(false)
+  const [isResultt, setIsResult] = useState(false)
 
   const startQuiz = () => {
     setIsStart(true)
@@ -11,9 +12,22 @@ export const AppProvider = ({ children }) => {
   const endQuiz = () => {
     setIsStart(false)
   }
-
+  const seeResults = () => {
+    endQuiz()
+    setIsResult(!isResultt)
+  }
   return (
-    <QuestionContext.Provider value={{ question, isStart, startQuiz, endQuiz }}>
+    <QuestionContext.Provider
+      value={{
+        question,
+        isStart,
+        startQuiz,
+        endQuiz,
+        isResultt,
+        setIsResult,
+        seeResults,
+      }}
+    >
       {children}
     </QuestionContext.Provider>
   )
