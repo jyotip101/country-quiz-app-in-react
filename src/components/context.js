@@ -1,28 +1,29 @@
 import React, { useContext, useState } from 'react'
+import { useFatch } from './FatchData'
 
+const url = `https://restcountries.com/v3.1/name/japan`
 const QuestionContext = React.createContext()
+
 export const AppProvider = ({ children }) => {
-  const [question, setQuestion] = useState(false)
+  const { questions } = useFatch(url)
   const [isStart, setIsStart] = useState(false)
   const [isResultt, setIsResult] = useState(false)
 
-  const startQuiz = () => {
+  const quizStatus = () => {
+    if (isStart) {
+      return setIsStart(false)
+    }
     setIsStart(true)
   }
-  const endQuiz = () => {
-    setIsStart(false)
-  }
   const seeResults = () => {
-    endQuiz()
+    setIsStart(false)
     setIsResult(!isResultt)
   }
   return (
     <QuestionContext.Provider
       value={{
-        question,
         isStart,
-        startQuiz,
-        endQuiz,
+        quizStatus,
         isResultt,
         setIsResult,
         seeResults,

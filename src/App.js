@@ -1,12 +1,11 @@
 import { useGlobalContext } from './components/context'
 import mainlog from './Images/undraw_adventure_4hum 1.svg'
 import Home from './pages/Home'
-import Question from './pages/Question'
+import QuestionsBox from './pages/QuestionsBox'
 import Results from './pages/Results'
 
 function App() {
-  const { isStart, startQuiz, endQuiz, isResultt, setIsResult } =
-    useGlobalContext()
+  const { isStart, quizStatus, isResultt, setIsResult } = useGlobalContext()
   return (
     <div className='bg-[#aa808a] w-full h-[100vh]'>
       <h1
@@ -27,7 +26,7 @@ function App() {
         <img src={mainlog} alt='undraw_adventure_4hum 1.svg' />
       </div>
       {!isStart && <Home />}
-      {isStart && !isResultt ? <Question /> : ''}
+      {isStart && !isResultt ? <QuestionsBox /> : ''}
       {isResultt && <Results />}
     </div>
   )
