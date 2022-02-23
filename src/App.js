@@ -23,14 +23,18 @@ function App() {
     }
   }
   return (
-    <div className='bg-[#aa808a] pt-[100px] w-[100vw] h-[100vh] pb-[100px] flex flex-col justify-center items-center'>
-      <h1 className='text-white transition pt-16 pr-auto text-center -ml-[158px] font-medium text-[30px] '>
+    <div className='bg-[#aa808a] w-[100vw] h-[100vh] pt-[100px] flex flex-col pb-[150px] justify-center items-center'>
+      <h1
+        className={`text-white transition pt-16 pr-auto text-center  font-medium text-[30px] ${
+          showScore ? '-ml-0' : ' -ml-[158px]  '
+        } `}
+      >
         Country
         <span className='italic ml-2 text-[#1c2620]'>Quiz</span>
       </h1>
 
       {showScore ? (
-        <Results />
+        <Results score={score} />
       ) : (
         <Question
           data={data}

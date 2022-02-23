@@ -7,7 +7,7 @@ const Question = ({
 }) => {
   return (
     <>
-      <div className='sm:w-[350px] w-auto h-[450px] bg-slate-50 m-2 p-8 sm:mx-auto rounded-2xl  '>
+      <div className='sm:w-[350px] w-[300px] h-[450px] bg-slate-50 m-2 p-8 sm:mx-auto rounded-2xl  '>
         <img
           src={mainlog}
           className='w-full max-w-[150px] absolute ml-[125px] -mt-[100px]'
@@ -22,7 +22,7 @@ const Question = ({
             return (
               <button
                 key={id}
-                className='m-2 p-2  border-2 rounded-xl border-[#1c2620]  text-[#1c2620] font-medium text-[16px]  transition delay-150 flex justify-between items-center '
+                className={`m-2 p-2  border-2 rounded-xl border-[#1c2620]  text-[#1c2620] font-medium text-[16px]  transition delay-150 flex justify-between items-center hover:bg-[#aa808a] hover:text-gray-50 hover:border-[#aa808a]`}
                 onClick={() => handleAnswerOptions(isCorrect)}
               >
                 <span className='ml-2'>

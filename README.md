@@ -31,7 +31,6 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
-- [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -47,13 +46,6 @@
 - [React](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com/)
 - [Icon](https://google.github.io/material-design-icons/)
-- [API](https://restcountries.com/)
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8) was to build an application to complete the given user stories.
 
 ## How To Use
 
